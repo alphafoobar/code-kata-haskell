@@ -12,8 +12,6 @@ main = hspec spec
 
 spec :: Spec
 spec = do
-  describe "strip" $ do
-    it "removes leading and trailing whitespace" $ do
-      strip "\t  foo bar\n" `shouldBe` "foo bar"
-    it "is idempotent" $ property $
-      \str -> strip str === strip (strip str)
+  describe "search" $ do
+    it "returns -1 if it can't find the element in an empty list" $ do
+      1 `chop` [] `shouldBe` -1
