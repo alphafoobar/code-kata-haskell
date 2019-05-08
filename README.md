@@ -9,6 +9,7 @@ These are from various kata in CodeKata; implemented in Haskell.
 1. Install the platform https://www.haskell.org/platform/
 2. Install cabal
 3. Enable the Haskell plugin for IntelliJ
+4. [Learn Haskell](https://stackoverflow.com/a/1016986/7421645)
 
 # how-to
 
